@@ -49,7 +49,7 @@
           </li>
           <li class="myPortfolio-list_item flex-reverse">
             <div class="myPortfolio-list_img trans to-up">
-              <a href="https://risaki-apple.github.io/portfolio.self-introduction/"><img src="../images/portfolio.png" class="img"></a>
+              <a href="#kv"><img src="../images/portfolio.png" class="img"></a>
             </div>
             <div class="myPortfolio-list_txt trans to-up">
               <p class="catch">Risaki's Portfolio</p>

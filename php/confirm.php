@@ -1,6 +1,6 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] != "POST") {
-    // ブラウザからHTMLページを要求された場合
+    // ブラウザからページを要求された場合
     header('Location: index.php');
 }
 

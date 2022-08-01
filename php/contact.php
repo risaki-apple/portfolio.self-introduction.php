@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"] != "POST") {
 </head>
 <body>
     <div class="Form to-up trans">  
-        <form id="form" action="confirm.php" method="post" enctype="multipart/form-data" onSubmit="return submitCheck()">
+        <form id="form" action="php/confirm.php" method="post" enctype="multipart/form-data" onSubmit="return submitCheck()">
             <div class="Form-Item">
                 <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
                 <input type="text" name="contactName" required class="Form-Item-Input" placeholder="例）山田太郎" value="<?php if(isset($_POST['contactName'])) echo $_POST['contactName'];?>" />

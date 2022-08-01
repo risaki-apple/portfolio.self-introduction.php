@@ -1,5 +1,6 @@
 <?php
 $enable_referer = 'https://phpselfintroduction.herokuapp.com/php/confirm.php';
+// $enable_referer = 'http://localhost:8888/php/confirm.php';
 if (!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] !== $enable_referer) {
     header('Location: index.php');
 }
@@ -20,7 +21,7 @@ if (!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] !== $enable_ref
 <body>
     <!-- お問合わせ完了画面 -->
     <div class="thanks_container">
-        <p class="thanks_contents to-up trans">
+        <p class="thanks_contents">
             この度はお問い合わせいただきありがとうございます。<br>
             内容を確認次第、折り返しご連絡させていただきます。    
         </p>

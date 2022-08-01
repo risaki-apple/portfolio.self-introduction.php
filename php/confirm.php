@@ -1,7 +1,7 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] != "POST") {
     // ブラウザからHTMLページを要求された場合
-    header('Location: ../index.php');
+    header('Location: index.php');
 }
 
 $name = trim($_POST['contactName']);
@@ -51,7 +51,7 @@ $title へのお問い合わせありがとうございます。\r\n
     $emailSent = true;
 
     if(isset($emailSent) && $emailSent == true) {
-        header('Location: php/thanks.php');
+        header('Location: thanks.php');
     }
 
 }

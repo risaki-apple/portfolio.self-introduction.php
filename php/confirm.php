@@ -51,7 +51,7 @@ $title へのお問い合わせありがとうございます。\r\n
     $emailSent = true;
 
     if(isset($emailSent) && $emailSent == true) {
-        header('Location: thanks.php');
+        header('Location: php/thanks.php');
     }
 
 }
@@ -72,7 +72,7 @@ $title へのお問い合わせありがとうございます。\r\n
 <body>
     <!-- 入力内容確認画面 -->
     <div class="container">
-        <form action="thanks.php" method="POST">
+        <form action="" method="POST">
             <p class="contact_confirm">入力内容確認</p>
             <div class="Form ">
                 <div class="Form-Item confirm">

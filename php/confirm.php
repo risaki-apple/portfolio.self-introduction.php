@@ -1,7 +1,7 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] != "POST") {
     // ブラウザからHTMLページを要求された場合
-    header('Location: index.php');
+    header('Location: ../index.php');
 }
 
 $name = trim($_POST['contactName']);
@@ -72,7 +72,7 @@ $title へのお問い合わせありがとうございます。\r\n
 <body>
     <!-- 入力内容確認画面 -->
     <div class="container">
-        <form action="" method="POST">
+        <form action="thanks.php" method="POST">
             <p class="contact_confirm">入力内容確認</p>
             <div class="Form ">
                 <div class="Form-Item confirm">

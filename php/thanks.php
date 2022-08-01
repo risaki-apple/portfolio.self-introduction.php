@@ -24,7 +24,7 @@ if (!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] !== $enable_ref
             この度はお問い合わせいただきありがとうございます。<br>
             内容を確認次第、折り返しご連絡させていただきます。    
         </p>
-        <button class="thanks_back_button" type="button" onclick="location.href='http://localhost:8888/php/index.php'">ページトップへ戻る</button>
+        <button class="thanks_back_button" type="button" onclick="location.href='https://phpselfintroduction.herokuapp.com/'">ページトップへ戻る</button>
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="../js/main.js"></script>

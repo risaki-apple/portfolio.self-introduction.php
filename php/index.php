@@ -21,7 +21,7 @@
       </section>
       <section>
         <div id="kv-txt" class="to-up trans">
-          <p><strong>Hello!!</strong>渡辺里咲と申します。「里咲」と書いて「りさき」と読みますが、学生時代はよく名前を読み間違えられて、「りさ」と呼ばれておりました。</strong></p>
+          <p><strong>Hello!!</strong> 渡辺里咲と申します。「里咲」と書いて「りさき」と読みますが、学生時代はよく名前を読み間違えられて、「りさ」と呼ばれておりました。</strong></p>
         </div>
       </section>
       
@@ -65,15 +65,15 @@
           <h2 class="ov-h2 ta-center to-up trans">日々キャッチアップを欠かさず<br><strong>需要のあるエンジニアに</strong></h2>
           <ul class="ov-list">
             <li class="ov-list_item to-up trans">
-              <p>実務経験を積み<br>信頼されるエンジニアに</p>
+              <p>実務経験を積み信頼されるエンジニアに</p>
               <p class="sub">まずは、しっかりと実務経験を積み、経験者として信頼のあるエンジニアになる</p>
             </li>
             <li class="ov-list_item to-up trans">
-              <p>見る人をワクワクさせる<br>Webページを</p>
+              <p>見る人をワクワクさせるWebページを</p>
               <p class="sub">複雑なアニメーションを使いこなし、見る人の印象に深く残るものを提供できるエンジニアになる</p>
             </li>
             <li class="ov-list_item to-up trans">
-              <p>デザイナーとしても<br>エンジニアとしても<br>活躍できる人材に</p>
+              <p>デザイナーとしてもエンジニアとしても活躍できる人材に</p>
               <p class="sub">デザインを考えたりすることも大好きなので、ゆくゆくは、ありきたりなデザインでなく、目を引くようなサイトのデザインからコーディングまで全て一貫して務められるエンジニアになる</p>
             </li>
           </ul>

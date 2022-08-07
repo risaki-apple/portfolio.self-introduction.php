@@ -236,6 +236,28 @@ strong,
   transition-delay: 500ms;
 }
 
+@media screen and (max-width: 768px) {
+  .myPortfolio-list_item {
+    display: block;
+    margin-bottom: 5.5rem;
+  }
+
+  .myPortfolio-list_item:last-child {
+    margin-bottom: 4rem;
+  }
+
+  .myPortfolio-list_img {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2.5rem;
+  }
+
+  .myPortfolio-list_txt {
+    width: 60%;
+    margin: auto;
+  }
+}
+
 .catch {
   font-size: 1.5rem;
   font-weight: 700;

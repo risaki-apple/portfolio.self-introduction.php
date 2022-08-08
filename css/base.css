@@ -247,14 +247,15 @@ strong,
   }
 
   .myPortfolio-list_img {
-    width: 75%;
+    width: 80%;
     margin: auto;
     padding-bottom: 2.5rem;
   }
 
   .myPortfolio-list_txt {
-    width: 60%;
+    width: 75%;
     margin: auto;
+    padding: 2rem;
   }
 }
 
@@ -263,11 +264,10 @@ strong,
   font-weight: 700;
   color: rgba(94, 91, 91, 0.87);
   line-height: 2.5rem;
-  margin: 1.5rem 0 1rem;
 }
 
 .excerpt {
-  margin: 1rem 0;
+  margin-top: 1rem;
   color: rgba(0, 0, 0, 0.54);
 }
 

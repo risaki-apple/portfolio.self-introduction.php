@@ -92,10 +92,12 @@ body {
 @media screen and (max-width: 768px) {
   .Form {
     width: 80%;
+    max-width: 410px;
   }
 
   .Form-Item {
     display: block;
+    max-width: 410px;
   }
 }
 
@@ -110,7 +112,6 @@ body {
 
 @media screen and (max-width: 768px) {
   .Form-Item-Label {
-    max-width: inherit;
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -168,7 +169,6 @@ body {
   height: 48px;
   flex: 1;
   width: 100vh;
-  max-width: 410px;
   background: #eaedf2;
   font-size: 18px;
 }
@@ -177,7 +177,7 @@ body {
   .Form-Item-Input {
     width: 100%;
     margin-left: 0;
-    max-width: 450px;
+    max-width: 410px;
     margin-top: 18px;
     height: 40px;
     flex: inherit;
@@ -192,8 +192,6 @@ body {
   padding-right: 1em;
   height: 216px;
   flex: 1;
-  width: 100vh;
-  max-width: 410px;
   background: #eaedf2;
   font-size: 18px;
 }
@@ -202,7 +200,7 @@ body {
     width: 100%;
     margin-top: 18px;
     margin-left: 0;
-    max-width: 450px;
+    max-width: 410px;
     height: 200px;
     flex: inherit;
     font-size: 15px;

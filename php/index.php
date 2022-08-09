@@ -65,15 +65,15 @@
           <h2 class="ov-h2 ta-center to-up trans">日々キャッチアップを欠かさず<br><strong>需要のあるエンジニアに</strong></h2>
           <ul class="ov-list">
             <li class="ov-list_item to-up trans">
-              <p>実務経験を積み信頼されるエンジニアに</p>
+              <p class="main">実務経験を積み信頼されるエンジニアに</p>
               <p class="sub">まずは、しっかりと実務経験を積み、経験者として信頼のあるエンジニアになる</p>
             </li>
             <li class="ov-list_item to-up trans">
-              <p>見る人をワクワクさせるWebページを</p>
+              <p class="main">見る人をワクワクさせるWebページを</p>
               <p class="sub">複雑なアニメーションを使いこなし、見る人の印象に深く残るものを提供できるエンジニアになる</p>
             </li>
             <li class="ov-list_item to-up trans">
-              <p>デザイナーとしてもエンジニアとしても活躍できる人材に</p>
+              <p class="main">デザイナーとしてもエンジニアとしても活躍できる人材に</p>
               <p class="sub">デザインを考えたりすることも大好きなので、ゆくゆくは、ありきたりなデザインでなく、目を引くようなサイトのデザインからコーディングまで全て一貫して務められるエンジニアになる</p>
             </li>
           </ul>

@@ -150,7 +150,7 @@ strong,
 }
 #kv-txt p {
   margin-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: 700;
   line-height: 2.5rem;
   color: rgba(94, 91, 91, 0.87);
@@ -181,7 +181,7 @@ strong,
 .section-ttl {
   padding: 1.5rem 1rem;
   margin: auto auto 3.5rem;
-  font-size: 32px;
+  font-size: 23px;
   display: inline-block;
   font-weight: bold;
   background: linear-gradient(45deg, #fa8bff 16%, #2bd2ff 57%, #2bff88 90%);
@@ -239,6 +239,7 @@ strong,
 @media screen and (max-width: 768px) {
   .myPortfolio-list_item {
     display: block;
+    margin-top: 0;
     margin-bottom: 6rem;
   }
 
@@ -260,14 +261,14 @@ strong,
 }
 
 .catch {
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: 700;
   color: rgba(94, 91, 91, 0.87);
   line-height: 2.5rem;
 }
 
 .excerpt {
-  margin-top: 1rem;
+  margin-top: 12px;
   color: rgba(0, 0, 0, 0.54);
 }
 
@@ -292,46 +293,48 @@ strong,
 }
 .ov-h2 {
   color: #4d4d4d;
-  font-size: 2.66667rem;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 3.5rem;
   font-weight: 400;
   margin-top: 2rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5.5rem;
+  letter-spacing: 0.2em;
 }
 
 .ov-list_item {
   width: 80%;
   max-width: 800px;
   margin: auto;
+  text-align: center;
 }
-.ov-list_item p {
-  font-size: 1.6rem;
+.ov-list_item .main {
+  font-size: 18px;
   font-weight: 700;
-  line-height: 2.3rem;
   color: hsl(298, 100%, 71%);
+  letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  border-left: 3px solid hsl(298, 100%, 71%);
-  padding-left: 1rem;
   display: inline-block;
-  align-items: center;
+  position: relative;
+}
+.ov-list_item .main::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background-color: hsl(298, 100%, 71%);
+  position: absolute;
+  left: -10px;
 }
 .ov-list_item .sub {
-  margin: 0;
-  font-size: 1.2rem;
+  font-size: 12px;
   line-height: 1.3rem;
   font-weight: 400;
   color: rgba(17, 17, 17, 0.54);
   line-height: 1.5rem;
-  text-align: center;
-  border-left: none;
-  width: 90%;
+  display: inline-block;
   margin-bottom: 5rem;
 }
 @media screen and (max-width: 768px) {
-  .ov-h2 {
-    letter-spacing: -0.2rem;
-  }
   .ov-list {
     display: block;
   }
@@ -352,7 +355,7 @@ strong,
 .contactMe_catch p {
   color: #585656;
   text-align: center;
-  font-size: 1.33333rem;
+  font-size: 18px;
   line-height: 2rem;
   margin: 0 auto 3.5rem;
   text-align: center;

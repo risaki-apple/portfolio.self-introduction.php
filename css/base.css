@@ -140,6 +140,11 @@ strong,
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 768px) {
+  #kv-img {
+    width: 100%;
+  }
+}
 #kv-img img {
   width: 100%;
 }
@@ -147,6 +152,12 @@ strong,
   max-width: 960px;
   padding: 2.5rem;
   margin: auto;
+}
+@media screen and (max-width: 768px) {
+  #kv-txt {
+    padding: 2.5rem 0;
+    width: 90%;
+  }
 }
 #kv-txt p {
   margin-top: 2rem;
@@ -177,6 +188,12 @@ strong,
   margin: 0 auto;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+@media screen and (max-width: 768px) {
+  .inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .section-ttl {
   padding: 1.5rem 1rem;
@@ -248,13 +265,13 @@ strong,
   }
 
   .myPortfolio-list_img {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-bottom: 2.5rem;
   }
 
   .myPortfolio-list_txt {
-    width: 75%;
+    width: 85%;
     margin: auto;
     padding: 2rem;
   }
@@ -301,11 +318,21 @@ strong,
   letter-spacing: 0.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .ov-h2 {
+    padding: 0 0.5rem;
+  }
+}
 .ov-list_item {
   width: 80%;
   max-width: 800px;
   margin: auto;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .ov-list_item {
+    width: 85%;
+  }
 }
 .ov-list_item .main {
   font-size: 18px;

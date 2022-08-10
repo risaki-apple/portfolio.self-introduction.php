@@ -217,7 +217,7 @@ strong,
 .section-ttl::before {
   content: "";
   display: block;
-  width: 100px;
+  width: 65px;
   height: 2px;
   background-color: #aa69ff;
   position: absolute;

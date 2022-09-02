@@ -24,7 +24,7 @@
           <p><strong>Hello!!</strong> 渡辺里咲と申します。「里咲」と書いて「りさき」と読みますが、学生時代はよく名前を読み間違えられて、「りさ」と呼ばれておりました。</strong></p>
         </div>
       </section>
-      
+
       <section id="myPortfolio" class="sec">
         <div class="ta-center inner">
         <h1 class="section-ttl to-down trans">My Portfolio</h1>
@@ -45,6 +45,15 @@
             <div class="myPortfolio-list_txt trans to-up">
               <p class="catch">Pancake</p>
               <p class="excerpt">チーズケーキ屋のサイトを参考にパンケーキ屋のサイトを作成いたしました。</p>
+            </div>
+          </li>
+          <li class="myPortfolio-list_item">
+            <div class="myPortfolio-list_img trans to-up">
+              <a href="https://risaki-apple.github.io/portfolio.ruisou/"><img src="../images/ruisou.png" class="img"></a>
+            </div>
+            <div class="myPortfolio-list_txt trans to-up">
+              <p class="catch">類奏 マカロン</p>
+              <p class="excerpt">デザインやアニメーションにこだわって作成しました。</p>
             </div>
           </li>
           <li class="myPortfolio-list_item flex-reverse">

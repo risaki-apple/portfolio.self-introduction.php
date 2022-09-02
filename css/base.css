@@ -239,7 +239,7 @@ strong,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3.5rem 0;
+  margin: 5rem 0;
 }
 .myPortfolio-list_img {
   width: 50%;
@@ -289,10 +289,12 @@ strong,
   color: rgba(0, 0, 0, 0.54);
 }
 
-.myPortfolio-list .myPortfolio-list_item:nth-child(2) .myPortfolio-list_txt {
+.myPortfolio-list .myPortfolio-list_item:nth-child(2) .myPortfolio-list_txt,
+.myPortfolio-list .myPortfolio-list_item:last-child .myPortfolio-list_txt {
   order: 1;
 }
-.myPortfolio-list .myPortfolio-list_item:nth-child(2) .myPortfolio-list_img {
+.myPortfolio-list .myPortfolio-list_item:nth-child(2) .myPortfolio-list_img,
+.myPortfolio-list .myPortfolio-list_item:last-child .myPortfolio-list_img {
   order: 2;
 }
 
